@@ -9,7 +9,6 @@ char player='X';
 char computer='O';
 char ch='y';
 
-
 //print board------------
 void printBoard(char b[3][3]){
   
@@ -23,9 +22,6 @@ void printBoard(char b[3][3]){
   printf("     |     |      \n");
 }
 
-
-
-
 //empty spaces----------
 int emptySpaces(char b[3][3]){
   for (int i=0; i<3; i++){
@@ -37,10 +33,6 @@ int emptySpaces(char b[3][3]){
   }
   return es;
 }
-
-
-
-
 
 //player move------------
 void playerMove(char b[3][3]){
@@ -64,10 +56,7 @@ void playerMove(char b[3][3]){
       break;
     }
   }
-  
-  
 }
-
 
 //computer move-------------
 void computerMove(char b[3][3]){
@@ -81,11 +70,7 @@ void computerMove(char b[3][3]){
       break;
     }
   }
-  
-  
 }
-
-
 
 //check winner-------
 char checkWinner(char b[3][3]){
@@ -132,9 +117,6 @@ char checkWinner(char b[3][3]){
   
   return winner;
 }
-
-
-
 
 //print winner--------
 void printWinner(char w){
@@ -195,8 +177,6 @@ int main()
     }
   }
     
-   
-
   return 0;
 }
 
