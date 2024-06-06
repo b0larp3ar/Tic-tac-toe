@@ -12,7 +12,7 @@ char ch='y';
 //print board------------
 void printBoard(char b[3][3]){
   
-  system("clear");
+  system("cls");
   
   printf("  %c  |  %c  |  %c  \n", b[0][0], b[0][1], b[0][2]);
   printf("_____|_____|______\n");
