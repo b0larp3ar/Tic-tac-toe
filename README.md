@@ -8,4 +8,4 @@ Computer - "O"
 
 -Rows and columns are represented by the numbers 1,2,3.
 
--Make your move by entering the row and column where you want to place your mark at.
+-Make your move by entering the row and column of the place where you want to mark "X".
